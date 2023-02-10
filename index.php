@@ -68,25 +68,25 @@
                 </p>
 
 
-                <form>
+                <form action="transit-page.php" method="post">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="name" placeholder="Имя">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Имя">
                         <label for="name">Имя</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                        <input type="email" name="email" class="form-control" id="email" placeholder="E-mail">
                         <label for="email">E-mail</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="contact" placeholder="WhatsApp или Telegram">
+                        <input type="text" name="contact" class="form-control" id="contact" placeholder="WhatsApp или Telegram">
                         <label for="contact">WhatsApp или Telegram</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="city" placeholder="С какого ты города">
-                        <label for="city">С какого ты города</label>
+                        <input type="text" name="city" class="form-control" id="city" placeholder="С какого ты города">
+                        <label for="city">С какого ты города?</label>
                     </div>
 
-                    <select class="form-select" aria-label="Default select example">
+                    <select class="form-select" name="spec" aria-label="Default select example">
                         <option selected>Выбери специализацию</option>
                         <option value="Веб-дизайнер">Веб-дизайнер</option>
                         <option value="Веб программист">Веб программист</option>
@@ -101,32 +101,32 @@
                     </select>
 
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="like" placeholder="Насколько тебе нравиться то, чем вы занимеетесь (оцени от 0 до 10)">
-                        <label for="like">Насколько тебе нравиться то, чем ты занимеетесь (оцени от 0 до 10)</label>
+                        <input type="text" class="form-control" name="like" id="like" placeholder="Насколько тебе нравиться то, чем вы занимеетесь (оцени от 0 до 10)">
+                        <label for="like">Насколько тебе нравиться то, чем ты занимеетесь? (оцени от 0 до 10)</label>
                     </div>
 
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="degree" placeholder="Насколько ты в этом профессионал (оцени от 0 до 10)">
+                        <input type="text" class="form-control" name="degree" id="degree" placeholder="Насколько ты в этом профессионал (оцени от 0 до 10)">
                         <label for="degree">Насколько ты в этом профессионал (оцени от 0 до 10)</label>
                     </div>
 
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="experience" placeholder="Сколько лет опыта?">
+                        <input type="text" class="form-control" name="experience" id="experience" placeholder="Сколько лет опыта?">
                         <label for="experience">Сколько лет опыта?</label>
                     </div>
 
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="boss" placeholder="У тебя есть нввыки руководителя (есть или нет)">
+                        <input type="text" class="form-control" name="boss" id="boss" placeholder="У тебя есть нввыки руководителя (есть или нет)">
                         <label for="boss">У тебя есть нввыки или желание быть руководителем? (есть или нет)</label>
                     </div>
 
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="businessman" placeholder="У тебя есть нввыки руководителя (есть или нет)">
+                        <input type="text" class="form-control" name="businessman" id="businessman" placeholder="У тебя есть нввыки руководителя (есть или нет)">
                         <label for="businessman">Если ли у тебя предпринимательская жилка? (есть или нет)</label>
                     </div>
 
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="important" placeholder="Что важно для тебя при устройстве на наемную работу?">
+                        <input type="text" class="form-control" name="important" id="important" placeholder="Что важно для тебя при устройстве на наемную работу?">
                         <label for="important">Что важно для тебя при устройстве на наемную работу?</label>
                     </div>
 
